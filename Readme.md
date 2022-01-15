@@ -3,4 +3,4 @@
 2. Once on your local machine, create .env file in the root directory (same as where there's manage.py file)
 
 3. Ensure to install all packages from the root directory with 
----  pip install -r requirements.txt
+---  pip3 install -r requirements.txt
