@@ -7,3 +7,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+    
+    def __len__(self):
+        return len(self.body)
