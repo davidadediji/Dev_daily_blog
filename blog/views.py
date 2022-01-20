@@ -13,3 +13,12 @@ def index(request):
         'posts': posts,
     }
     return HttpResponse(template.render(context, request))
+
+def page_view(request):
+    template = loader.get_template('page.html')
+    posts = Post.objects.all()
+    context = {
+        'posts': posts,
+    }
+    return HttpResponse(template.render(context, request))
+    
