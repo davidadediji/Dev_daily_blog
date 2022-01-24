@@ -7,3 +7,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+if __name__ == "__main__":
+    Post()
